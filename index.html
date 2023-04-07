@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Compras</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <h1>Lista de Compras</h1>
+<!--     <hr />  -->
+    <p>
+      Descrição: 
+      <input id="inputDescricao" type="text" />
+      Quantidade: 
+      <input id="inputQuantidade" type="text" />
+      Preço: 
+      <input id="inputPreco" type="text" step="0.01"/>
+      <button id="btAdicionar">Adicionar</button>
+      <button id="btLimpar">Limpar</button>
+    </p>
+<!--     <hr />  -->
+    <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+        </tr>
+        <tbody id="novaTabela"></tbody>
+    </table>
+
+  </body>
+</html>
